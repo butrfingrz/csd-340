@@ -11,6 +11,11 @@ p
     line-height: 1.4em;
 }
 
+p#intro
+{
+    text-indent: .2em;
+}
+
 h1,h2
 {
     font-family: 'Oswald', Verdana, Arial, sans-serif;
@@ -63,7 +68,4 @@ a:visited
     font-style: italic;
 }
 
-p#intro
-{
-    text-indent: .2em;
-}
+
