@@ -1,0 +1,81 @@
+html{
+    background-color: #ffffff;
+    color: #043A42;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+#page-title{
+    font-family:  'Quicksand', sans-serif;; 
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+   
+}
+#menu-bar{
+    padding-bottom: 200px;
+}
+#menu_bar a{
+    
+    display: block;
+    color: #FAD6B2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#menu_bar a:hover{
+    background-color: #21344D;
+}
+#menu_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #565841;
+}
+#menu_bar li{
+    display: inline;
+    float: left;
+}
+
+table{
+    border: 1px solid ;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+h1{background-color: #21344D; color: #FAD6B2;}
+
+figure {
+    border: thin #FAD6B2 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+figcaption {
+    background-color: black;
+    color: #FAD6B2;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+/* Color Theme Swatches in Hex */
+.color-theme-1-hex { background-color: #615D67; color: #FAD6B2; }
+.color-theme-2-hex { background-color: #FAD6B2; }
+.color-theme-3-hex { background-color: #0E2038; color: #FAD6B2;}
+.color-theme-4-hex { background-color: #83D3FD; }
+.color-theme-5-hex { background-color: #565841; color: #FAD6B2; }
+
+/* Color Theme Swatches in RGBA */
+.color-theme-1-rgba { color: rgba(97,93,103, 1); }
+.color-theme-2-rgba { color: rgba(250, 214, 178, 1); }
+.color-theme-3-rgba { color: rgba(14, 32, 56, 1); }
+.color-theme-4-rgba { color: rgba(131, 221, 253, 1); }
+.color-theme-5-rgba { color: rgba(86, 88, 65, 1); }
