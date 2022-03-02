@@ -1,0 +1,227 @@
+/* Andrea Fletcher */
+
+body{
+    margin: 0;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header{
+    background-color: #0A3459;
+    color: white;
+    padding: 5px;
+    text-align:center;
+}
+header h1{
+    color: white;
+}
+
+h1{
+    color: #0A3459;
+    text-align: center;
+    font-size: 3em;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #0A3459;
+    border-bottom: 15px solid #F2D7B6 ;
+}
+
+#navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-transform: none;
+}
+
+#navbar a:hover{
+    background-color: #F2D7B6;
+    color: #0A3459;
+}
+
+
+#Hobbies, #Experience, #Contact, #Bio{
+    border: #84A9BF solid 10px;
+    display: inline-table;
+    width: 100%;
+    /* margin-bottom:5px; */
+    position: relative;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    min-height: 300px;
+    position: relative;
+    margin: 10px auto;
+}
+    /* The floats after the columns are cleared */
+.row:after {
+    content: “”;
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 1320px) {
+    .column {
+      width: 100%;
+    }
+  }
+    
+.card{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .3s;
+    width: 90%;
+    height: 450px;
+    position: relative;
+    margin: auto;
+    
+}
+
+/* Set width for top and bottom cands to 100% */
+.Contact div.card, #Bio .card{
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 2em;
+    color: #0A3459;
+    font-weight: 400;
+}
+
+.card-content{
+    padding:2px 16px;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+
+
+
+img{
+    max-width: 210px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+#Bio figure img{
+    max-width: 30%;
+    max-height: 30%;
+    min-width: 30%;;
+    min-height: 30%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#Contact .card{
+  height: 300px;  
+} 
+#Bio .card-content{
+    text-align: center;
+}
+
+#Bio .card-title{
+    text-align: left;
+}
+
+#slider1, #slider2{
+    overflow: hidden;
+    position: static;
+}
+
+#slider1 figure,#slider2 figure{
+    position: relative;
+    width:800%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider1 figure img,#slider2 figure img{
+    float:left;
+}
+
+#slider3{
+    overflow: hidden;
+    position: absolute;
+}
+
+#slider3 figure{
+    position: relative;
+    width:200%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider2 infinite;
+}
+
+#slider3 figure img{
+    float:left;
+    width:100%;
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -110%;
+    }
+    45%{
+        left: -110%;
+    }
+    50%{
+        left: -210%;
+    }
+    70%{
+        left: -210%;
+    }
+    75%{
+        left: -310%;
+    }
+    95%{
+        left: -310%;
+    }
+    100%{
+        left: -600%;
+    }
+
+}
+
+@keyframes slider2{
+    0%{
+        left: 0%;
+    }
+    
+
+}
+
+.footer{
+    position: relative;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#0A3459;
+    color: #F2D7B6;
+    text-align: center;
+}
+
+/* 
+colors:
+#0A3459,
+#84A9BF,
+#BFAC4B,
+#D9BF73,
+#F2D7B6,
+*/
