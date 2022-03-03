@@ -109,28 +109,41 @@ img{
     min-height: 200px;
 }
 
-#Bio figure img{
-    max-width: 30%;
-    max-height: 30%;
-    min-width: 30%;;
-    min-height: 30%;
+#Bio{
+    padding: 0 6px;
+    float: left;
+    width: 100%;
+}
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#Bio img{
+    max-width: 100%;
+    max-height: unset;
+    min-width: unset;
+    min-height: unset;
+
+    width: 400px;
+
+    position: relative;
+    top: -275px;
+    left: 20px ;
     
+}
+
+#Bio .card{
+    height: 300px;
+}
+#Bio .card-title{
+    padding: 100px;
+}
+#Bio h1{
+    display: inline;
+    font-size: 2em;
 }
 
 #Contact .card{
   height: 300px;  
 } 
-#Bio .card-content{
-    text-align: center;
-}
 
-#Bio .card-title{
-    text-align: left;
-}
 
 #slider1, #slider2{
     overflow: hidden;
