@@ -103,9 +103,9 @@ h1{
 
 
 img{
-    max-width: 210px;
+    max-width: 181px;
     max-height: 200px;
-    min-width: 200px;
+    min-width: 194px;
     min-height: 200px;
 }
 
@@ -152,7 +152,7 @@ img{
 
 #slider1 figure,#slider2 figure{
     position: relative;
-    width:800%;
+    width:400%;
     margin: 0;
     left: 0;
     animation: 20s slider infinite;
@@ -182,32 +182,13 @@ img{
 
 
 @keyframes slider{
+    
     0%{
         left: 0%;
     }
-    20%{
-        left: 0%;
-    }
-    25%{
-        left: -110%;
-    }
-    45%{
-        left: -110%;
-    }
-    50%{
-        left: -210%;
-    }
-    70%{
-        left: -210%;
-    }
-    75%{
-        left: -310%;
-    }
-    95%{
-        left: -310%;
-    }
+    
     100%{
-        left: -600%;
+        left: -100%;
     }
 
 }
